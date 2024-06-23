@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react'
 import './Hero.css'
 import CV from '../../assets/cv.pdf'

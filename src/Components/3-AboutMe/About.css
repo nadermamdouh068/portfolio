@@ -7,6 +7,7 @@
 
 .info-list-about,
 .about-content {
+    display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 1.5rem;
     align-items: center;
@@ -26,4 +27,26 @@
 .info_item .info_desc{
     color: var(--subtitle);
     font-weight: 600;
+}
+
+
+
+
+
+
+@media screen and (max-width: 910px) {
+
+    .animation{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    
+
+    .info-list-about{
+        grid-template-columns: 1fr;
+    }
+        
 }

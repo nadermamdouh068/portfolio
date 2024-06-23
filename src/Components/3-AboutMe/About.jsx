@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { useEffect, useState } from 'react'
 import './About.css'
 import Lottie from 'lottie-react'
@@ -8,16 +9,6 @@ const About = () => {
    
 
 
-    useEffect(() => {
-        // delete the animation when the page size is small
-        window.addEventListener('resize', () => {
-            if (window.innerWidth < 768) {
-                document.getElementById('lottie-animation').style.display = 'none';
-            }else{
-                document.getElementById('lottie-animation').style.display = 'block';
-            }
-        })
-    }, [])
     return (
         <section className='about' id='About'>
             <h2 className='section-title text-center mb-5'>
@@ -25,7 +16,7 @@ const About = () => {
                 <span> Me</span> 
             </h2>
 
-            <div className='about-content d-flex'>
+            <div className='about-content'>
 
                 <div className='about-info'>
                     <h3 className='sub-title'>

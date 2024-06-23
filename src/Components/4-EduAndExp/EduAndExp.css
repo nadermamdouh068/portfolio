@@ -63,3 +63,16 @@ section.EduAndExp .exp-container .exp-data .exp-item::before{
     font-size: 1.5rem;
     color: rgb(244, 244, 244);
 }
+
+
+
+
+
+@media screen and (max-width: 720px) {
+    section.EduAndExp .exp-container{
+        grid-template-columns: 1fr;
+        column-gap: 0;
+        row-gap: 2.5rem;
+    }
+    
+}
