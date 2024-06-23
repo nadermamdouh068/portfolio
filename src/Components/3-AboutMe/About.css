@@ -1,0 +1,29 @@
+.about-info .sub-title{
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    color: var(--title);
+}
+
+
+.info-list-about,
+.about-content {
+    grid-template-columns: 2fr 1fr;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.info-list-about{
+    row-gap: 20px;
+    margin-bottom: 2rem;
+}
+
+.info_item .info_title ,
+.info_item .info_desc{
+    font-size: .9rem;
+    color: var(--title);
+}
+
+.info_item .info_desc{
+    color: var(--subtitle);
+    font-weight: 600;
+}

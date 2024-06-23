@@ -1,0 +1,65 @@
+section.EduAndExp .exp-container{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+section.EduAndExp .exp-container .exp-data .exp-item{
+    position: relative;
+    padding-left: 4rem;
+}
+
+section.EduAndExp .exp-container .exp-data .exp-item:not(:last-child){
+    margin-bottom: 3rem;
+}
+
+section.EduAndExp .exp-container .exp-data .exp-item::before{
+    content: "";
+    position: absolute;
+    inset-block: 0;
+    left: 20px;
+    border-left: 1px solid var(--border);
+}
+.exp-item .exp-subtitle{
+    color: var(--title);
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    margin-block: 10px 0;
+}
+
+.exp-item .exp-org{
+    color: var(--subtitle);
+    font-size: .9rem;
+    line-height: 1.5rem;
+    margin-block: 0px 10px;
+}
+
+.exp-item .exp-desc{
+    font-size: .9rem;
+    line-height: 1.6;
+    opacity: .9;
+    color: var(--subtitle)
+}
+
+.exp-item .exp-date{
+    background-color: var(--bgHeader);
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: .7rem;
+    font-weight: 600;
+    width: max-content;
+    color: var(--subtitle)
+}
+
+.exp-data .exp-item .exp-icon{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: var(--btnBackGround);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(244, 244, 244);
+}
