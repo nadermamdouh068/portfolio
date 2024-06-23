@@ -25,7 +25,7 @@ const ItemDet = ({ handleClose, project }) => {
                             {project.long_desc}
                         </p>
                         <div className="link-icon fs-5">
-                            <div className="d-flex gap-3 align-items-center icon-color">
+                            <div className="d-flex gap-3 align-items-center icon-color flex-wrap">
                                 {project.programming_language.split(" - ").map((item, index) => {
                                     if (item.includes("R")) {
                                         return <FaReact key={index} />

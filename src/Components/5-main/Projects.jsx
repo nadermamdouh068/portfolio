@@ -4,13 +4,14 @@ export const projects = [
         img: "./dl.jpg",
         title: "Digital Library System",
         desc: "Serves faculty, students, and researchers. Includes services application, communication features, admin and employee management, and report generation.",
-        long_desc: "The library serves a large segment of beneficiaries, such as faculty members, graduate students, and undergraduate students, in addition to other research and educational institutions such as private and private universities and educational institutes. As well as scientific magazines and periodicals inside and outside the university. The System has 6 views: The user can apply for any of the eight available services and communicate with the library through the site's chat and many other features to facilitate service request and communication. There is an admin for each service and employees who are divided into (examiner and reviewer) and an employee who specializes in payment codes and they have many features such as distributing requests among them, controlling the employee's powers, communicating between them and users, printing various reports on the need and many other features, and finally the library manager who manages the employees and service managers on the site. Adding important events for users.",
+        long_desc: "The library serves a large segment of beneficiaries, such as faculty members, graduate students, and undergraduate students, in addition to other research and educational institutions such as private and private universities and educational institutes. As well as scientific magazines and periodicals inside and outside the university. The System has 6 views.",
         organisation: "Associated with Helwan University",
         date: "09/2023 – 12/2023",
         programming_language: "R - N - J - E - M  - C - H" ,
         proLinK: "",
         githubLink: "",
     },
+    // : The user can apply for any of the eight available services and communicate with the library through the site's chat and many other features to facilitate service request and communication. There is an admin for each service and employees who are divided into (examiner and reviewer) and an employee who specializes in payment codes and they have many features such as distributing requests among them, controlling the employee's powers, communicating between them and users, printing various reports on the need and many other features, and finally the library manager who manages the employees and service managers on the site. Adding important events for users
     {
         id: 2,
         img: "./Li.png",
