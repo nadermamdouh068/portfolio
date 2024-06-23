@@ -141,7 +141,7 @@ section.hero div.icon-cv a:hover{
 .cv-btn{
     display: inline-block;
     color: var(--title);
-    /* background-color: var(--btnBackGround); */
+    background-color: transparent;
     border: 1px solid var(--blue);
     padding: 11px 60px 15px 23px;   
     border-radius: 35px;
