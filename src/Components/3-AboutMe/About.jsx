@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './About.css'
 import Lottie from 'lottie-react'
 import lab from '../../assets/animations/lab.json'
+import CV from '../../assets/cv.pdf'
 
 const About = () => {
    
@@ -69,8 +70,8 @@ const About = () => {
                             <span className='info_desc'>Nadermamdouh68@gmail.com</span>
                         </li>
                     </ul>
-                    <a className='icon-cv cv-btn' href="#">
-                        Download CV
+                    <a className='icon-cv cv-btn' href={CV} download>
+                    Download CV
                         <span className='icon-send cv-icon'></span>
                     </a>
                 </div>

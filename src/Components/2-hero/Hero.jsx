@@ -1,5 +1,6 @@
 import React from 'react'
 import './Hero.css'
+import CV from '../../assets/cv.pdf'
 
 const Hero = () => {
   return (
@@ -77,7 +78,7 @@ const Hero = () => {
             <div className="icons-cont icon-envelope"></div>
           </div>
 
-          <a className='icon-cv cv-btn' href="#">
+          <a className='icon-cv cv-btn' href={CV} download>
             Download CV
             <span className='icon-send cv-icon'></span>
           </a>

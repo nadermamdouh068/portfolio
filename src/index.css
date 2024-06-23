@@ -29,6 +29,7 @@ body {
 
   --btnBackGround: rgba(36, 37, 46,1);
   --headerBoxShadow: #232324;
+  --dow : #fff;
 }
 
 .light {
@@ -44,6 +45,8 @@ body {
   --blue:rgb(0, 149, 246);
 
   --headerBoxShadow:#a8a8af;
+
+  --dow : #000;
 
 }
 

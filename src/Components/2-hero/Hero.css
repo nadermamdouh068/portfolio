@@ -154,7 +154,7 @@ section.hero div.icon-cv a:hover{
 }
 
 .cv-btn:hover{
-    color: var(--primary);
+    color: #fff;
 }
 
 .cv-btn::before{
