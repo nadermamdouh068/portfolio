@@ -6,7 +6,7 @@ import CV from '../../assets/cv.pdf'
 const Hero = () => {
   return (
     <section className='hero d-flex align-items-center'>
-      <div className='left-side-hero animation'>
+      <div className='left-side-hero'>
         <div className='parent-avatar1'>
           {/* <img src='./me0.jpg' alt='avatar01' className='avatar' /> */}
           <div className='avatar'></div>
