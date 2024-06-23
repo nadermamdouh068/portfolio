@@ -31,7 +31,7 @@ section.hero .parent-avatar1{
 }
 
 section.hero .parent-avatar1 .avatar{
-    background: url(./me0.jpg);
+    background: url(../../assets/me0.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
