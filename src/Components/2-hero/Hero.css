@@ -196,12 +196,12 @@ section.hero div.icon-cv a:hover{
 
 
 
-/* @media screen and (max-width: 100px) {
+@media screen and (max-width: 500px) {
     section.hero .parent-avatar1 .avatar{
-        width: 230px;
+        width: 280px;
     }
     
-} */
+}
 
 
 
