@@ -15,6 +15,7 @@ function App() {
       {/* <div className="divider"/> */}
       <Hero />
       <div className="divider"/>
+      {/* <About /> */}
       <About />
       <div className="divider"/>
       <EduAndExp />
